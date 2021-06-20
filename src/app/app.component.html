@@ -1,11 +1,7 @@
-<h2>Read Local JSON file data using HttpClient</h2>
-<table id="events">
+<h2>Programma eventi</h2>
 
   <p *ngFor="let event of eventData?.events">
     Titolo: <br>{{event.TITOLO_IT}} <br>
-    Data: <br>{{event.DATA}}<br>
-    Luogo:<br>{{event.LUOGO_IT}}<br>
+    Data: {{event.DATA}}<br>
+    Luogo: {{event.LUOGO_IT}}<br>
     Orario: {{event.ORARIO_IT}}<br><br>
-
-
-</table>
